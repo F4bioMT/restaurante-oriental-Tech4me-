@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'JapanRich Regular';
+    src: url('font/JapanRich-Regular.otf') format('opentype');
+}
+
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/1196152102846746694/1236373879027662948/background.png?ex=6637c667&is=663674e7&hm=3209bb7133174ab25dd1a8e0b5e7a083389bb8c4e4b0deb0b676a95d60b756f0&"); background-size: cover;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px red;
+}
+
+.general-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #343579;
+    max-width: 540px;
+    color: aliceblue;
+    box-shadow: 9px 9px 18px #F8485E;
+}
+
+.card-title{
+    margin: 15px;
+}
+
+.data{
+    margin: 20px;    
+}
